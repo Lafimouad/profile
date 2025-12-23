@@ -6,7 +6,9 @@ export default function App() {
     <div className="portfolio">
       <nav className="navbar">
         <div className="nav-container">
-          <a href="#home" className="nav-logo">ML</a>
+          <a href="#home" className="nav-logo">
+            ML
+          </a>
           <div className="nav-links">
             <a href="#about">About</a>
             <a href="#experience">Experience</a>
@@ -22,12 +24,22 @@ export default function App() {
           <h1 className="hero-title">Mouadh Lafi</h1>
           <p className="hero-subtitle">Full-Stack Software Engineer</p>
           <p className="hero-description">
-            Motivated full-stack software engineer with 5 years of experience. Expertise in Java, Spring Boot, and React,
-            with a proven ability to quickly learn new technologies.
+            Motivated full-stack software engineer with 5 years of experience.
+            Expertise in Java, Spring Boot, and React, with a proven ability to
+            quickly learn new technologies.
           </p>
           <div className="hero-buttons">
-            <a href="#contact" className="btn-primary">Get In Touch</a>
-            <a href="https://github.com/Lafimouad" target="_blank" rel="noopener noreferrer" className="btn-secondary">View GitHub</a>
+            <a href="#contact" className="btn-primary">
+              Get In Touch
+            </a>
+            <a
+              href="https://github.com/Lafimouad"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary"
+            >
+              View GitHub
+            </a>
           </div>
         </div>
       </section>
@@ -38,14 +50,17 @@ export default function App() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm a passionate full-stack software engineer with 5 years of experience building scalable
-                web applications and microservices. My expertise spans across modern technologies including
-                Java, Spring Boot, React, and cloud platforms like AWS.
+                I'm a passionate full-stack software engineer with 5 years of
+                experience building scalable web applications and microservices.
+                My expertise spans across modern technologies including Java,
+                Spring Boot, React, and cloud platforms like AWS.
               </p>
               <p>
-                Currently working at Vistaprint, I specialize in designing MicroFront-end architectures,
-                developing RESTful microservices, and implementing robust CI/CD pipelines. I'm always eager
-                to learn new technologies and take on challenging projects that expand my skills and international experience.
+                Currently working at Vistaprint, I specialize in designing
+                MicroFront-end architectures, developing RESTful microservices,
+                and implementing robust CI/CD pipelines. I'm always eager to
+                learn new technologies and take on challenging projects that
+                expand my skills and international experience.
               </p>
             </div>
             <div className="languages">
@@ -80,13 +95,34 @@ export default function App() {
                   <span className="period">Dec 2022 - Present</span>
                 </div>
                 <ul className="timeline-list">
-                  <li>Led MicroFront-end architecture design using React/Typescript and Material UI</li>
-                  <li>Developed and maintained React component libraries for UI consistency and reusability</li>
-                  <li>Built RESTful microservices with Typescript, NodeJS, and Java</li>
-                  <li>Orchestrated microservices deployment on AWS using Jenkins, Spinnaker, Docker, and Kubernetes</li>
-                  <li>Implemented A/B testing with Optimizely, Contentful, and React</li>
-                  <li>Created personalization platform for automated email and marketing campaign templates</li>
-                  <li>Implemented serverless services with AWS Lambda and API Gateway</li>
+                  <li>
+                    Led MicroFront-end architecture design using
+                    React/Typescript and Material UI
+                  </li>
+                  <li>
+                    Developed and maintained React component libraries for UI
+                    consistency and reusability
+                  </li>
+                  <li>
+                    Built RESTful microservices with Typescript, NodeJS, and
+                    Java
+                  </li>
+                  <li>
+                    Orchestrated microservices deployment on AWS using Jenkins,
+                    Spinnaker, Docker, and Kubernetes
+                  </li>
+                  <li>
+                    Implemented A/B testing with Optimizely, Contentful, and
+                    React
+                  </li>
+                  <li>
+                    Created personalization platform for automated email and
+                    marketing campaign templates
+                  </li>
+                  <li>
+                    Implemented serverless services with AWS Lambda and API
+                    Gateway
+                  </li>
                 </ul>
                 <div className="tech-tags">
                   <span>Java</span>
@@ -104,19 +140,37 @@ export default function App() {
               <div className="timeline-marker"></div>
               <div className="timeline-content">
                 <div className="timeline-header">
-                  <h3>Software Engineer | Digital Banking Technical Consultant</h3>
+                  <h3>
+                    Software Engineer | Digital Banking Technical Consultant
+                  </h3>
                   <span className="company">ITSS</span>
                   <span className="period">July 2021 - Nov 2022</span>
                 </div>
                 <p className="timeline-description">
-                  Worked on Digital Banking team for Temenos Infinity software, serving ATB Bank.
+                  Worked on Digital Banking team for Temenos Infinity software,
+                  serving ATB Bank.
                 </p>
                 <ul className="timeline-list">
-                  <li>Developed backend services and API processors for three distinct banking projects</li>
-                  <li>Created Quantum Fabric integration and orchestration services</li>
-                  <li>Built cross-platform web and mobile applications using MVC framework</li>
-                  <li>Implemented ATB Onboarding backend with Spring Boot microservices</li>
-                  <li>Administered application environment using AWS and Kubernetes</li>
+                  <li>
+                    Developed backend services and API processors for three
+                    distinct banking projects
+                  </li>
+                  <li>
+                    Created Quantum Fabric integration and orchestration
+                    services
+                  </li>
+                  <li>
+                    Built cross-platform web and mobile applications using MVC
+                    framework
+                  </li>
+                  <li>
+                    Implemented ATB Onboarding backend with Spring Boot
+                    microservices
+                  </li>
+                  <li>
+                    Administered application environment using AWS and
+                    Kubernetes
+                  </li>
                 </ul>
                 <div className="tech-tags">
                   <span>Spring Boot</span>
@@ -138,12 +192,21 @@ export default function App() {
                   <span className="period">Jan 2021 - June 2021</span>
                 </div>
                 <p className="timeline-description">
-                  Developed multi-platform application for car purchasing and credit simulation.
+                  Developed multi-platform application for car purchasing and
+                  credit simulation.
                 </p>
                 <ul className="timeline-list">
-                  <li>Designed full-stack web application using Angular, Spring Boot, and MySQL</li>
-                  <li>Implemented robust CI/CD pipeline with Jenkins, Nexus, GIT, and Docker</li>
-                  <li>Integrated Camunda BPMN for credit workflow management</li>
+                  <li>
+                    Designed full-stack web application using Angular, Spring
+                    Boot, and MySQL
+                  </li>
+                  <li>
+                    Implemented robust CI/CD pipeline with Jenkins, Nexus, GIT,
+                    and Docker
+                  </li>
+                  <li>
+                    Integrated Camunda BPMN for credit workflow management
+                  </li>
                   <li>Implemented Keycloak IAM with SSO session management</li>
                   <li>Utilized WSO2 API Manager for secure API architecture</li>
                 </ul>
@@ -233,7 +296,8 @@ export default function App() {
         <div className="container">
           <h2 className="section-title">Get In Touch</h2>
           <p className="contact-description">
-            I'm always interested in hearing about new opportunities and challenging projects.
+            I'm always interested in hearing about new opportunities and
+            challenging projects.
           </p>
           <div className="contact-links">
             <a href="mailto:mouadh.lafi@outlook.com" className="contact-item">
@@ -250,18 +314,28 @@ export default function App() {
                 <span className="contact-value">+216 55454412</span>
               </div>
             </a>
-            <a href="https://linkedin.com/in/mouadh-lafi" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a
+              href="https://linkedin.com/in/mouadh-lafi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-item"
+            >
               <div className="contact-icon">💼</div>
               <div className="contact-info">
                 <span className="contact-label">LinkedIn</span>
-                <span className="contact-value">linkedin.com/in/mouadh-lafi</span>
+                <span className="contact-value">mouadh-lafi</span>
               </div>
             </a>
-            <a href="https://github.com/Lafimouad" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a
+              href="https://github.com/Lafimouad"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-item"
+            >
               <div className="contact-icon">👨‍💻</div>
               <div className="contact-info">
                 <span className="contact-label">GitHub</span>
-                <span className="contact-value">github.com/Lafimouad</span>
+                <span className="contact-value">Lafimouad</span>
               </div>
             </a>
           </div>
